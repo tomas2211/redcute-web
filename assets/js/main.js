@@ -4,6 +4,25 @@
 	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 */
 
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.opacity = "1";
+        document.getElementById("myBtn").style.visibility = "visible";
+    } else {
+        document.getElementById("myBtn").style.opacity = "0";
+        document.getElementById("myBtn").style.visibility = "hidden";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0; // For Chrome, Safari and Opera 
+    document.documentElement.scrollTop = 0; // For IE and Firefox
+}
+
 (function($) {
 
 	// Breakpoints.
