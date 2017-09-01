@@ -2723,12 +2723,15 @@
     visibility: hidden;
     position: fixed; 
     font-size: 20px;
-    bottom: 80px;
-    right: 30px; 
+    bottom: 20px;
+    right: 20px; 
+    width: 50px;
+    padding: 0;
     z-index: 99; 
     border: none;
     outline: none;
     cursor: pointer; 
+    text-align: center;
     opacity: 1;
     transition: opacity 300ms, visibility 300ms;
     -webkit-transition: transition: opacity 300ms, visibility 300ms;
