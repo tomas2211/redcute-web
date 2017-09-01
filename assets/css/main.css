@@ -1909,6 +1909,16 @@
 			width: 28%;
 		}
 
+		.flex.flex-3 footer {
+			position: absolute;
+            bottom: 1em;
+			width: 100%;
+		}
+
+        .flex.flex-3 article p {
+            margin: 0 0 5em 0;
+        }
+
 			.flex.flex-3 article:before {
 				content: '';
 				position: absolute;
