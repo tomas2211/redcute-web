@@ -1585,7 +1585,7 @@
 /* Type */
 
 	body, input, select, textarea {
-		color: #9a9a9a;
+		color: black;
 		font-family: "Raleway", Arial, Helvetica, sans-serif;
 		font-size: 13pt;
 		font-weight: 300;
@@ -1805,7 +1805,7 @@
 
 		section.wrapper.style1, article.wrapper.style1 {
 			background: #D42216;
-			color: #bacee6;
+			color: white;
 		}
 
 			section.wrapper.style1 header h2, article.wrapper.style1 header h2 {
@@ -1813,7 +1813,7 @@
 			}
 
 			section.wrapper.style1 header p, article.wrapper.style1 header p {
-				color: #bacee6;
+				color: white;
 			}
 
 			section.wrapper.style1 h3, article.wrapper.style1 h3 {
@@ -1857,7 +1857,7 @@
 		}
 
 	header p {
-		color: #bbb;
+		color: black;
 		position: relative;
 		margin: 0 0 1.5em 0;
 	}
@@ -2753,7 +2753,7 @@
 		}
 
 	#header {
-		color: #d4e0ef;
+		color: white;
 		cursor: default;
 		height: 3.25em;
 		left: 0;
