@@ -2760,7 +2760,7 @@
 		line-height: 3.25em;
 		position: absolute;
 		text-align: right;
-		top: 4em;
+		top: 3em;
 		width: 100%;
 		z-index: 10001;
 	}
@@ -2793,7 +2793,7 @@
 			padding: 0 0.75em;
 			color: inherit;
 			text-decoration: none;
-			font-size: .8em;
+			font-size: 1em;
 		}
 
 			#header a:hover {
@@ -2962,8 +2962,8 @@
 /* Banner */
 
 	#banner {
-		padding: 12em 0 10em 0;
-		background-image: url('../../images/banner.jpg');
+		padding: 20em 0 0.5em 0;
+		background-image: url('../../images/banner_people.jpg');
 		background-size: cover;
 		background-position: top;
 		background-attachment: fixed;
@@ -3000,7 +3000,7 @@
 		@media screen and (max-width: 1280px) {
 
 			#banner {
-				padding: 10em 2em 8em 2em;
+				padding: 20em 2em 0.5em 2em;
 			}
 
 		}
