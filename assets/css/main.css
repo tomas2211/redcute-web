@@ -1633,7 +1633,7 @@
 		}
 
 	a {
-		color: #D42216;
+		color: #dbdbdb;
 		text-decoration: underline;
 	}
 
@@ -1642,7 +1642,6 @@
 		}
 
 	strong, b {
-		color: #555;
 		font-weight: 600;
 	}
 
@@ -3046,7 +3045,7 @@
 	}
 
 	#footer .copyright {
-		color: #bbb;
+		color: #666;
 		font-size: 0.8em;
 		margin: 0 0 2em 0;
 		padding: 0;
@@ -3064,6 +3063,7 @@
 
 	#footer ul.icons li .icon {
 		font-size: 0.58em;
+        color: #666;
 	}
 
 	@media screen and (max-width: 736px) {
