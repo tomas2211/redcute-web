@@ -2794,10 +2794,12 @@
 			color: inherit;
 			text-decoration: none;
 			font-size: 1em;
+            text-shadow: 0 0 5px #000000;
 		}
 
 			#header a:hover {
-				color: #ffffff;
+				color: #D42216;
+                text-shadow: 0 0 5px #fff;
 			}
 
 			#header a:last-child {
@@ -2963,7 +2965,7 @@
 
 	#banner {
 		padding: 20em 0 0.5em 0;
-		background-image: url('../../images/banner_people.jpg');
+		background-image: url('../../images/banner_prototypes.jpg');
 		background-size: cover;
 		background-position: top;
 		background-attachment: fixed;
